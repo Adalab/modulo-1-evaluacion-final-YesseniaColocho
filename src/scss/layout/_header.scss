@@ -8,6 +8,7 @@
   height: 100vh;
   background-position: 87%;
   background-size: cover;
+  font-family: $fontRobotoSlab;
   &__container {
     position: absolute;
     bottom: 0;
@@ -34,4 +35,3 @@
     padding-bottom: 20px;
   }
 }
-
