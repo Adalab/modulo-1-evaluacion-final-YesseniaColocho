@@ -1,4 +1,14 @@
 @import "core/reset";
 @import "core/variables";
 @import "layout/header";
+@import "layout/sports-shop";
 
+.button-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  font-size: 40px;
+}

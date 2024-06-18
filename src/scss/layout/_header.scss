@@ -1,5 +1,5 @@
 .image-element {
-  background: #6c933e;
+  background: $colorVerde;
   padding: 10px;
   position: fixed;
 }
@@ -16,9 +16,8 @@
     align-items: center;
     width: 100%;
     padding-bottom: 120px;
-
   }
-  &__text_container {
+  &__text-container {
     color: white;
     text-shadow: 2px 2px 15px rgb(78, 78, 78);
     font-size: 23px;
@@ -26,21 +25,13 @@
     padding-bottom: 25px;
     text-align: center;
   }
+  h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    line-height: 1.5;
+    text-shadow: 2px 2px 15px rgb(78, 78, 78);
+    padding-bottom: 20px;
+  }
 }
-h1 {
-  color: white;
-  font-size: 40px;
-  text-align: center;
-  line-height: 1.5;
-  text-shadow: 2px 2px 15px rgb(78, 78, 78);
-  padding-bottom: 20px;
-}
-.button-arrow {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 100%;
-  height: 50px;
-  width: 50px;
-  font-size: 40px;
-}
+

@@ -1,0 +1,29 @@
+.section-sport {
+  padding: 20px 20px;
+}
+.title {
+  color: $colorVerde;
+  font-family: $fontRoboto;
+  font-size: small;
+  margin-bottom: 10px;
+  font-weight: normal;
+  &__second {
+    font-family: $fontRobotoSlab;
+    font-weight: bolder;
+  }
+}
+.text-sport {
+  font-family: $fontRoboto;
+  font-size: small;
+  margin: 5px 0;
+}
+.selectior-shop {
+  background: none;
+  margin-top: 10px;
+  border-radius: 20px;
+  padding: 5px 20px;
+  border: 2px solid $colorVerde;
+  color: $colorVerde;
+  font-size: medium;
+  font-weight: 600;
+}
