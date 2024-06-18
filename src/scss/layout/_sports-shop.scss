@@ -4,26 +4,26 @@
 .title {
   color: $colorVerde;
   font-family: $fontRoboto;
-  font-size: small;
   margin-bottom: 10px;
   font-weight: normal;
   &__second {
     font-family: $fontRobotoSlab;
     font-weight: bolder;
+    font-size: 22px;
   }
 }
 .text-sport {
   font-family: $fontRoboto;
-  font-size: small;
+  font-size: 18px;
   margin: 5px 0;
 }
 .selectior-shop {
   background: none;
-  margin-top: 10px;
-  border-radius: 20px;
-  padding: 5px 20px;
+  margin-top: 30px;
+  border-radius: 30px;
+  padding: 10px 25px;
   border: 2px solid $colorVerde;
   color: $colorVerde;
-  font-size: medium;
+  font-size: 20px;
   font-weight: 600;
 }
