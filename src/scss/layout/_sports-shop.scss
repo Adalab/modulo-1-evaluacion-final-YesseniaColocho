@@ -26,6 +26,12 @@
   color: $colorVerde;
   font-size: 20px;
   font-weight: 600;
+  &:hover{
+    background: $colorVerde;
+    color: white;
+    transform: translateX(10px);
+    transition: transform 0.7s;
+  }
 }
 
 @media all and (min-width: 1280px){
