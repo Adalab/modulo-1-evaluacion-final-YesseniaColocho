@@ -36,7 +36,15 @@
     text-align: center;
   }
   span {
-    color: $colorVerde;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 0;
+    width: 20px;
+    color: #6c933e;
+    animation-name: heart;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
   }
   a {
     color: white;
@@ -44,6 +52,20 @@
     text-transform: uppercase;
   }
 }
+
+
+@keyframes heart{
+  0% {font-size: small;}
+  15% {font-size: smaller;}
+  25% {font-size: medium;}
+  50% {font-size: large;}
+  70% {font-size: medium;}
+  85% {font-size: smaller;}
+  100% {font-size: small;}
+}
+
+
+
 
 @media all and (min-width: 768px) {
   .footer-wrapper {
