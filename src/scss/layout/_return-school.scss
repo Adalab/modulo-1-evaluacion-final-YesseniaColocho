@@ -47,3 +47,37 @@
     font-size: 20px;
   }
 }
+
+@media all and (min-width: 768px) {
+  .element-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    &__text {
+      margin-bottom: 15px;
+    }
+  }
+  .button-element {
+    margin: 0;
+  }
+}
+@media all and (min-width: 1280px) {
+  .title-section {
+    &__title {
+      font-size: 12px;
+    }
+    &__title_second {
+      font-size: 28px;
+    }
+  }
+  .element-grid {
+    width: 940px;
+    margin: 0 auto;
+    img {
+      width: 35%;
+    }
+    &__text {
+      div {
+        font-size: 18px;
+      }
+    }
+  }
+}
