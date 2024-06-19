@@ -10,7 +10,7 @@
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  a{
+  a {
     line-height: 0;
   }
 }
@@ -31,15 +31,42 @@
       margin-bottom: 10px;
     }
   }
-  &__socials, &__products{
+  &__socials,
+  &__products {
     text-align: center;
   }
   span {
     color: $colorVerde;
   }
-  a{
+  a {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .footer-wrapper {
+    flex-direction: row;
+    gap: 120px;
+    align-items: start;
+
+    &__socials,
+    &__products,
+    &__love {
+      text-align: left;
+      line-height: 2;
+    }
+  }
+}
+
+@media all and (min-width: 1280px) {
+  .footer-wrapper {
+    gap: 350px;
+    align-items: start;
+    &__socials,
+    &__products {
+      line-height: 2;
+    }
   }
 }

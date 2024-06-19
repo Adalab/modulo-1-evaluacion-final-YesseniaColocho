@@ -31,6 +31,7 @@
     padding-bottom: 120px;
   }
   &__text-container {
+    max-width: 200px;
     color: white;
     text-shadow: 2px 2px 15px rgb(78, 78, 78);
     font-size: 16px;
@@ -45,5 +46,28 @@
     line-height: 1.5;
     text-shadow: 2px 2px 15px rgb(78, 78, 78);
     padding-bottom: 20px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .hero {
+    &__text-container {
+      max-width: 300px;
+      font-size: 24px;
+    }
+    &__container {
+      padding-bottom: 20px;
+    }
+    h1 {
+      font-size: 75px;
+    }
+  }
+}
+
+@media all and (min-width: 1280px) {
+  .hero {
+    &__text-container {
+      max-width: unset;
+    }
   }
 }
